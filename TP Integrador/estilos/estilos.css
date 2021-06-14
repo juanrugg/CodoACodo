@@ -1,0 +1,152 @@
+body{
+    background-color:whitesmoke;
+}
+
+.menuFoto{
+    background-image: url("../imagenes/header.jpg");
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+    
+}
+.amenities{
+    position: relative;
+    display: flex;
+    align-items: center;   
+    width: 8%;
+   
+
+}
+.imax{
+    color: white;
+    position: relative;
+    left: 100px;
+    top: 50px;
+    font-size: 25px;
+}
+.venta{
+    color: white;
+    position: relative;
+    left: 100px;
+    top: 300px;
+}
+.ejemplos{
+    position: relative;
+    text-align: center;
+}
+
+.topnav{
+    position: absolute;
+    float: right;
+    top: 50px;
+    right: 40px; 
+    font-size: 20px;        
+}
+
+h3{
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nosotros{
+display: inline-table;
+position: relative;
+text-align: center;
+width: 400px;
+height: 150px;
+margin: 10px;
+
+}
+.casas{
+    display: inline-table;
+    position: relative;
+    text-align: center;
+    width: 400px;
+    height:200px;
+    margin: 10px;
+    background-color:rgba(128, 128, 128, 0.164);
+}
+.casas img{
+    width: 100%;
+    
+}
+
+.precio{
+    position: relative;
+    text-align: left;
+    font-size: 18px;
+    color:green;
+}
+.iconos{
+    position: relative;
+    display:inline-table;
+    width: 8%;
+}
+
+.boton2{
+   font-size: 13px;
+   background-color: darkgreen;
+   color: white;
+   position: relative;
+   
+}
+.boton1{
+    background-color: chocolate;
+    color: cornsilk;
+    width: 90%;
+    padding: 10px;
+    
+}
+.caracteristicas{
+    position: relative;
+    text-align: center;
+}
+.finPagina{
+    background-image: url("../imagenes/encuentra.jpg");
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+      
+}
+.contacto{
+    background-color: chocolate;
+    color: cornsilk;
+    position: relative;
+    left: 50px;
+    top: 130px;
+}
+footer{
+    background-color: rgb(51, 51, 51);
+    color: white;
+    padding: 10px; 
+    
+}
+.encuentra{
+    color: white;
+    position: relative;
+    top: 40px;
+    left: 50px;
+}
+.llena{
+    color: white;
+    position: relative;    
+    top: 100px;
+    left: 50px;
+
+}
+a:link{
+    color: white;
+    text-decoration: none;
+}
+.design{
+    position: relative;
+    display: inline-block;
+    left: 1000px;
+}

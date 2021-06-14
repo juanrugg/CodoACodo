@@ -1,0 +1,42 @@
+body{
+    background-color:black;
+    color: honeydew;
+}
+div.secundario {
+    /*display: inline-block;*/
+    width: 15%;
+    float: left;
+    background-color: cornflowerblue;
+    padding: 5 px;
+    border: 1px solid white;
+    margin: 5px;
+
+
+}
+
+div#ventas{
+background-color: darkblue;
+color white-space;
+}
+
+#prueba{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+form div{
+    width: 300px;
+    background-color: red;
+    text-align: center;
+}
+
+#boton{
+    text-align: center;
+}
+
+th{
+    text-align: left;
+}
+ 

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase Bootstrap</title>
+    <!--Agregar el cdn de bootstrap-->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+
+    <!--Agregar archivo externo de css-->
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <!--Crear un menú-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#platos">Platos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#bebidas">Bebidas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#carrito" tabindex="-1" aria-disabled="false">Carrito de compras</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Crear secciónes para 4 productos-->
+    <main class="container">
+        <section class="row mt-5" id="platos">
+            <h2>Platos Principales</h2>
+            <article class="col-5 bg-info bg-gradient">
+                 <h3>Milanesa con Fritas</h3>
+                <img src="img/milaFrita.jpeg" alt="">
+                <p>Milanesa de Pollo con papas Fritas</p>
+                <p>450 Pesos</p> 
+                                   
+            </article>
+            <article class="col-5">
+                <h3>Milanesa a la Napolitan</h3>
+                <img src="img/napolitana.jpeg" alt="">
+                <p>Milanesa con tomate y queso</p>
+                <p>450 Pesos</p>
+            </article>
+        </section>
+        <section class="row" id="bebidas">
+            <h2>Bebidas</h2>
+            <article class="col-5">
+                <h3>Gaseosa</h3>
+                <img src="img/gaseosa.jpeg" alt="">
+                <p>Fresquita la gaseosa</p>
+                <p>150 Pesos</p>
+            </article>
+            <article class="col-5">
+                <h3>Limonada</h3>
+                <img src="img/limonada.jpeg" alt="">
+                <p>Limones recien exprimidos</p>
+                <p>200 Pesos</p>
+
+            </article>
+        </section>
+    </main>
+
+    <div class="container">
+        <div class="row">
+        <div class="col-6">
+            <div class="card" style="width: 18rem;">
+                <img src="img/milaFrita.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-6">
+            <div class="card" style="width: 18rem;">
+                <img src="img/napolitana.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+        </div>
+    </div>
+    </div>
+    <!--Crear un formulario de contacto-->
+    <!--Agregar un footer-->
+</body>
+
+</html>

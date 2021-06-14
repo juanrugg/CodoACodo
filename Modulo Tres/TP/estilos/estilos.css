@@ -1,0 +1,65 @@
+body{
+    background-color: blanchedalmond;
+}
+
+li{
+    display: inline-block;
+    
+}
+
+nav{
+    text-align: right;
+    font-size: 17px;
+    background-color: rgb(209, 207, 207);
+    font-family:  'Zen Dots', cursive;
+    position:fixed;
+    top: 50px;
+    left: 60%;
+}
+
+img{
+    width: 120px;
+}
+article{
+    width: 70%;
+}
+section{
+    display: flex;
+    justify-content: center;  
+    padding: 100px;  
+    background-color: rgba(97, 105, 170, 0.603);
+    margin: 50px;
+}
+footer{
+    background-color:  rgb(209, 207, 207);
+    text-align: center;
+    padding: 4px;
+}
+ul li{
+    list-style: none;
+}
+
+.btn{
+     background-color: blue;
+     color: white; 
+     padding: 5px;
+     border-radius: 10px 0px;
+}
+
+#home, #contacto, #nosotros{
+    height: 500px;
+}
+
+.btn:hover{
+    background-color: grey;
+    color: khaki;
+    padding: 8px;
+    border-radius: 0px 10px;
+}
+
+.btn:active{
+    background-color: darkmagenta;
+}
+.btn:visited{
+    background-color: darkred;
+}

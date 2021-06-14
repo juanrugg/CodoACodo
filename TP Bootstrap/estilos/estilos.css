@@ -1,0 +1,10 @@
+.busqueda{
+position: relative;
+left: 890px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+}

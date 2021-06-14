@@ -1,0 +1,13 @@
+div.row{
+    background-color: blue;
+    border: 5px solid white;
+    
+    /*box-sizing: border-box;*/
+}
+img{
+    width: 100px;
+}
+/*
+img:hover{
+    width: 180px;
+}
